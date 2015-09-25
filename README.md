@@ -20,7 +20,7 @@ NB: The input file will be assigned to a variable called `json` for use in the `
 ## Usage Example
 
 ### Simple
-`find_dupes input.json --array='json' --id='id'`
+`find_dupes input.json --array=json --id=id`
 
 ### Advanced
-`find_dupes input.json --array='json.content.result' --id='product.meta.id'`
+`find_dupes input.json --array=json.content.result --id=product.meta.id`
