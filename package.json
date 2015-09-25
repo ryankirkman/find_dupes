@@ -1,6 +1,6 @@
 {
   "name": "find_dupes",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Find duplicates in a specific key (array) of an input JSON file",
   "main": "find_dupes.js",
   "dependencies": {

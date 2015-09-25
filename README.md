@@ -11,9 +11,9 @@ Install (as a command line util)
 
 Usage
 =====
-NB: The input file will be assigned to a variable called `json` for use in the `--array_key` command line argument.
+NB: The input file will be assigned to a variable called `json` for use in the `--array` command line argument.
 
-`--array`: Where we can find the array. Remember the JSON input is assigned to a variable called `json`, so if the input file contained an array, we could simply specify `--arary=json`
+`--array`: Where we can find the array. Remember the JSON input is assigned to a variable called `json`, so if the input file contained an array, we could simply specify `--array=json`
 
 `--id`: A key that is looked up for each element in the array to find a value that uniquely identifies an element in the array. Assumes each element of the array is an object.
 
