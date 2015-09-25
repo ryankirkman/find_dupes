@@ -15,12 +15,12 @@ NB: The input file will be assigned to a variable called `json` for use in the `
 
 `--array`: Where we can find the array. Remember the JSON input is assigned to a variable called `json`, so if the input file contained an array, we could simply specify `--arary=json`
 
-`--id_key`: A key that is looked up to find a value that uniquely identifies an element in the array.
+`--id`: A key that is looked up for each element in the array to find a value that uniquely identifies an element in the array. Assumes each element of the array is an object.
 
 ## Usage Example
 
 ### Simple
-`find_dupes input.json --array_key='json' --id_key='id'`
+`find_dupes input.json --array='json' --id='id'`
 
 ### Advanced
-`find_dupes input.json --array_key='json.content.result' --id_key='product.meta.id'`
+`find_dupes input.json --array='json.content.result' --id='product.meta.id'`
