@@ -1,11 +1,14 @@
 {
   "name": "find_dupes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find duplicates in a specific key (array) of an input JSON file",
   "main": "find_dupes.js",
   "dependencies": {
     "lodash": "^3.10.1",
     "minimist": "^1.2.0"
+  },
+  "bin": {
+    "find_dupes": "find_dupes.js"
   },
   "author": "Ryan Kirkman <ryan@ryankirkman.com>",
   "license": "MIT",
